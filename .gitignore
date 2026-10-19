@@ -1,0 +1,26 @@
+# ---- 个人录屏原文件：不进公开仓库 ----
+# 如果你确实想公开某个样例，把下面几行注释掉，再 git add -f 那个文件
+Screenrecording_*.vts
+Screenrecording_*.mp3
+Screenrecording_*.mp4
+Screenrecording_*.m4a
+
+# ---- 转换输出 ----
+mp3/
+*.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---- 临时目录（工具的中间产物）----
+vts2mp3_*/
+.vts2mp3_*/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+desktop.ini
